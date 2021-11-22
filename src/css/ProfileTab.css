@@ -1,0 +1,224 @@
+.ProfileTab {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-top: 10px;
+}
+.ProfileTab__leftForm {
+  flex: 0.5;
+  height: fit-content;
+}
+.requiredspan {
+  color: red;
+}
+.ProfileTab__rightForm {
+  flex: 0.5;
+  float: right;
+  height: fit-content;
+  margin-left: 20px;
+}
+.dropdown-content{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.multi-select{
+  max-width: 350px;
+  --rmsc-main: #3973ac;
+  --rmsc-hover: #f1f3f5;
+  --rmsc-selected: #e2e6ea  !important;
+  --rmsc-border: #c5c5c5;
+  --rmsc-gray: #aaa;
+  --rmsc-bg: #e9ecef !important;
+  --rmsc-p: 8px !important; /* Spacing */
+  --rmsc-radius: 2px  !important; /* Radius */
+  --rmsc-h: 30px  !important; /* Height */
+  line-height: 2 !important;
+  /* font-size: 15px; */
+  margin-top: 0px  !important;
+}
+
+.multi-select-selected{
+  max-width: 250px;
+  --rmsc-main: #3973ac;
+  --rmsc-hover: #f1f3f5;
+  --rmsc-selected: #e2e6ea;
+  --rmsc-border: #3973ac;
+  --rmsc-gray: #aaa;
+  --rmsc-bg: #fff;
+  --rmsc-border-width: 2px  !important;
+  --rmsc-p: 8px  !important; /* Spacing */
+  --rmsc-radius: 2px  !important; /* Radius */
+  --rmsc-h: 30px  !important; /* Height */ 
+
+  margin-top: 0px  !important;
+ 
+  /* font-size: 15px; */
+  line-height: 2 !important;
+  white-space: nowrap !important;
+
+}
+
+.dropdown-content li {
+  padding: 0px !important;
+  line-height: 1 !important;
+  margin-top:-10px !important;
+  white-space: nowrap;
+  font-size: 14px !important;
+}
+.dropdown-content li:first-child{
+  margin-top: 0px !important;
+}
+.dropdown-content span{
+  font-size: 14px !important;
+  padding-bottom: 0px !important;
+}
+
+.pass-wrapper {
+  position: relative;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+i {
+  float: right;
+
+  position: absolute;
+  top: 19%;
+  right: 6%;
+}
+i:hover {
+  color: #3973ac;
+  cursor: pointer;
+}
+.hidden-divider-reset-password{
+  height: fit-content;
+  padding: 10px;
+}
+.lableText {
+  text-align: right;
+  text-align: justify;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+.passwordlabel {
+  flex: 0.2;
+  padding: 10px;
+}
+.permission-container {
+  padding: 20px;
+}
+.borderedpassword {
+  width: fit-content;
+  /* margin-left: 10px; */
+  height: fit-content;
+  padding: 26px;
+  border: solid 1px;
+  border-color: black;
+}
+.form-lables {
+  height: fit-content;
+  float: left;
+  padding: 10px;
+  text-align: right;
+}
+.checkbox-active-user {
+  margin-left: 35px;
+}
+.text-fields {
+  height: fit-content;
+  float: right;
+}
+.bordered-permissions {
+
+  width: fit-content;
+  height: fit-content;
+  border: solid 1px;
+  padding: 12px;
+}
+.roles-dropdown {
+  width: 250px;
+  background-color: white;
+  color: black;
+  margin-top: 5px;
+}
+.roles-dropdown:focus {
+  background-color: white;
+  color: black;
+}
+.password-on-user-active {
+  width: 250px;
+  float: left;
+  margin: 10px;
+}
+.account-creation-status {
+  float: left;
+  text-align: left;
+  padding: -5px;
+  margin: 5px;
+
+}
+.reset-password-btn {
+  background-color: #3973ac;
+  color: white;
+  width: 50%;
+  margin: 10px;
+}
+.buttons-user {
+  float: right;
+  height: fit-content;
+  margin-top: 10px;
+}
+.password-container {
+  float: left;
+  width: 100%;
+  /* margin-left: 50px; */
+  height: fit-content;
+
+}
+.ProfileTab__leftFormAlignment {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-top: 15px;
+  flex-flow: row;
+  padding: 10px;
+}
+.ProfileTab__leftFormLabel {
+  flex: 0.3;
+}
+.ProfileTab__leftFormInput {
+  flex: 0.4;
+  margin-left: 10px;
+}
+.ProfileTab__formFont {
+  font-size: medium;
+}
+.ProfileTab__requiredField {
+  color: red;
+}
+.textAlign{
+  text-align: right;
+}
+@media only screen and (max-width: 600px) {
+  .textAlign{
+    text-align: left;
+  }
+  .ProfileTab__leftForm{
+  
+  }
+  .ProfileTab__rightForm{
+  }
+  #reset-password-btn{
+    font-size: smaller !important;
+    margin: 0px !important;
+  }
+
+  span{
+    margin: 0px;
+  }
+.ProfileTab__MulitSelectRole{
+  border-color: #3973ac;
+  border-width: 2px;
+}
+}

@@ -1,0 +1,86 @@
+.custom-header-color {
+  background-color: #006EAB;
+  /* background-color: #3c8dbc !important; */
+}
+.custom-header-textcolor {
+  /* color: #d9d9d9; */
+  color: #ffff;
+}
+.custom-header-textsize {
+  font-size: small;
+}
+
+.topHeader {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  float: right;
+}
+.topHeader-content {
+  flex: 0.25;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-shadow: 2px 2px 2px grey;
+  padding: 4px 4px 4px 0px;
+  
+}
+.header-leftContent {
+  flex: 0.8;
+}
+.header-rightContent {
+  padding: 5px;
+  text-align: right;
+  float: right;
+  flex: 0.2;
+  text-align: right;
+}
+.header-link:hover{
+  background-color: #cce6ff;
+  /* width: max-content; */
+  color: #3973ac;
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 3px 5px;
+  font-weight: bold;
+}
+.header-link::before{
+  content: attr(title);
+  font-weight: bold;
+  visibility: hidden;
+  overflow: hidden;
+  display: block;
+  height: 0px;
+}
+.header-link{
+  font-size: medium;
+  padding: 3px 5px !important;
+  margin: 0px 5px;
+  display: inline-block;
+}
+
+.Header__logo{
+  width: 35px;
+  height: 35px;
+}
+
+.Header__leftText{
+  /* margin-left: 42px; */
+  margin-left: 10px;
+  font-weight: bold;
+  margin-top: 9px;
+  margin-bottom: 5px;
+}
+
+.headerLink-active{
+  background-color: #cce6ff;
+  width: max-content;
+  color: #3973ac;
+  text-decoration: none !important;
+  border-radius: 2px;
+  padding: 5px;
+  font-weight: bold;
+}

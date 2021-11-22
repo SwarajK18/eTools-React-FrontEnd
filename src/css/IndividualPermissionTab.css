@@ -1,0 +1,59 @@
+.IndividualPermissionTab{
+    background-color: #e6eeff;
+    margin-top: 10px;
+}
+.IndividualPermissionTab__navItem{
+    margin: 0px;
+    padding: 0px;
+}
+.IndividualPermissionTab__navLink{
+    margin: 0px;
+    padding: 0px;
+}
+.IndividualPermissionTab__tabContent{
+    margin-left: 5px;
+}
+.IndividualPermissionTab__contentContainer{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    min-height: 400px;
+}
+
+.IndividualPermissionTab__permissionsTableContainer{
+    flex: 0.7;
+    margin-right: 15px;
+}
+.IndividualPermissionTab__permissionsTable{
+    overflow-x: scroll;
+    
+}
+.IndividualPermissionTab__locationContainer{
+    flex: 0.3;
+}
+.IndividualPermissionTab__tableResponsive{
+    overflow-y: scroll;
+    max-height: 500px;
+
+}
+.IndividualPermissionTab__checkBox{
+    box-shadow: 1px 1px 1px black;
+    margin-right: 4px;
+}
+.IndividualPermissionTab__heading{
+    font-weight: bold;
+    font-size: medium;
+    
+}
+.IndividualPermissionTab__Buttons{
+    float: right;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.IndividualPermissionTab__cancelButton{
+    margin-right: 5px;
+}
+.IndividualPermissionTab__locationTable{
+    overflow-x: scroll;
+}

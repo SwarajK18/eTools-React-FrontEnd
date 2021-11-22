@@ -1,0 +1,128 @@
+.parent-container-login {
+  background-color: #235ba8;
+  height: 100vh; /* Magic here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url('../assets/Images/banner_front_1.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: inherit;
+  overflow: hidden;
+}
+
+
+.keep-me-logged-in{
+  margin-left: 5px;
+}
+.pass-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  margin: 5px;
+}
+.card-container-login {
+  /* margin:auto; */
+  /* max-width: 50%; */
+  width: 550px;
+  max-height: 750px;
+  height: fit-content;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.15);
+}
+.right-form-container{
+  float: left;
+  height:100%;
+  display:flex; 
+  align-items:center;
+  justify-content:center;
+  
+}
+.center{
+text-align:center;
+height:100%;
+display:flex; 
+align-items:center;
+justify-content:center;
+}
+.left-container-login {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border: solid black 3px;
+}
+
+.righit-div{
+  padding: 10px;
+  flex: 0.5;
+}
+
+.logo-div{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  float: left;
+  width: 80%;
+  justify-content:center ;
+}
+
+.right-container-login {
+  float: left;
+  flex: 0.5;
+  width: 50%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container-login {
+  float: left;
+  width: 100%;
+
+  padding: 25px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+.login-form-labels {
+  color: #006EAB;
+}
+.btn-login {
+  width: 100%;
+  background-color: #006EAB !important;
+}
+
+.btn-setPassword {
+  width: 100%;
+  background-color: #006EAB !important;
+}
+.forgot-passeord-link {
+  margin: auto;
+  float: right;
+  right: 0;
+  color: #006EAB;
+}
+.logos-row-divider {
+  padding: 10px;
+  margin: auto;
+}
+.logo-tags {
+  float: left;
+  margin: 10px;
+  size: small;
+}
+.img-logo {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
